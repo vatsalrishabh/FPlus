@@ -1,0 +1,50 @@
+/* Login.css */
+
+/* Common styles for forms */
+.form-label {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .btn-block {
+    border-radius: 5px;
+  }
+  
+  /* Login form specific styles */
+  .login-form {
+    display: block;
+  }
+  
+  .login-form .form-label {
+    text-align: center;
+  }
+  
+  .login-form .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .login-form .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Registration form specific styles */
+  .registration-form {
+    display: none;
+  }
+  
+  /* Forgot password form specific styles */
+  .forgot-password-form {
+    display: none;
+  }
+  
